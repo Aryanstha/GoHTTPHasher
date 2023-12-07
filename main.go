@@ -123,7 +123,7 @@ func main() {
 
 	// Check if URL is passed as command line argument
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: hhhash <url>")
+		fmt.Println("Usage: GoHTTPHasher <url>")
 		os.Exit(1)
 	}
 
